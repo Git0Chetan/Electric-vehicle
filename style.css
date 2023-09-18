@@ -151,9 +151,15 @@
     box-shadow: 4px 4px 4px black;
   }
 
-  .mod{
+  /* .mod{
     display: block;
     color: #fff;
     background-color: rgb(143, 138, 138);
     padding: 10%;
+  } */
+
+  .one{
+    display: block;
+    color: #fff;
+    font-size:larger;
   }
