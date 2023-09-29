@@ -11,6 +11,9 @@ const solcon2=document.getElementsByClassName("solCon2");
 const but2=document.getElementById("but2");
 
 
+const find=document.getElementById("find");
+const pop=document.getElementsByClassName("pop");
+
 // function fun(){
 //     one.innerHTML="HEllo";
 // }
@@ -41,3 +44,13 @@ but2.addEventListener("click",()=>{
     solcon2[0].style.display="flex";
     mod2[0].style.display="none";
 });
+
+
+find.addEventListener("click",()=>{
+  if(pop[0].style.display=="block"){
+    pop[0].style.display="none";
+  }
+  else{
+    pop[0].style.display="block";
+  }
+})

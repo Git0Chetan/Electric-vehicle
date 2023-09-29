@@ -273,3 +273,13 @@ footer {
   color: aliceblue;
   background-color: #022905;
 }
+
+.pop{
+  display: none;
+}
+
+.pop button{
+  margin:1%;
+  padding: 1%;
+  border-radius: 5px;
+}
