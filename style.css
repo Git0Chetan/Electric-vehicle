@@ -15,30 +15,35 @@
   .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 40px;
+    margin: 0 5%;
+  }
+
+  .logo{
+    width:8%;
   }
   .logo img {
-    width: 80px;
-    margin-top: 10px;
+    width: 60%;
+    margin-top: 10%;
     border: 3px solid green;
     border-radius: 50%;
   }
-  .items {
-    display: flex;
-    align-items: center;
+
+  .items{
+    width:80%;
   }
+
   .items ul {
     display: flex;
     list-style: none;
   }
   .items ul li {
     color: #fff;
-    margin-right: 16px;
-    font-size: 22px;
+    margin:2%;
   }
   .items ul li a{
     text-decoration: none;
     color: #fff;
+    font-size: 150%;
   }
 
   .items ul li:hover {
@@ -283,3 +288,15 @@ footer {
   padding: 1%;
   border-radius: 5px;
 }
+
+
+/* @media screen and (max-width:450px) {
+   body{
+    background-image: none;
+    background-color: #0c4113;
+   }
+
+   .nav{
+    width:50px;
+   }
+} */
