@@ -15,21 +15,22 @@
   .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 5%;
+
   }
 
   .logo{
-    width:8%;
+    width:2vw;
   }
+  
   .logo img {
-    width: 60%;
-    margin-top: 10%;
+    width: 3vw;
+    margin-top: 1vw;
     border: 3px solid green;
     border-radius: 50%;
   }
 
   .items{
-    width:80%;
+    width:60vw;
   }
 
   .items ul {
@@ -38,12 +39,12 @@
   }
   .items ul li {
     color: #fff;
-    margin:2%;
+    margin:1vw;
   }
   .items ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 150%;
+    font-size: 2.3vw;
   }
 
   .items ul li:hover {
@@ -59,18 +60,15 @@
     cursor: pointer;
     transition: 0.5s ease-in-out;
   }
-  #active {
-    color: green;
-    font-weight: 600;
-  }
+
   .btn {
     display: flex;
     align-items: center;
   }
 
   .btn button {
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 1vw 2vw;
+    font-size: 2vw;
     color: #fff;
     background-color: green;
     outline: none;
@@ -92,29 +90,29 @@
     margin-left: 5vw;
   }
   .c-1 {
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
   }
   .c-1 h1 {
     color: #fff;
-    font-size: 56px;
+    font-size: 10vw;
   }
   .c-1 h1 span {
     color: green;
   }
   .c-2 p {
     color: lightgray;
-    letter-spacing: 2px;
+    letter-spacing: 1vw;
   }
   .c-3 {
-    margin-top: 100px;
+    margin-top: 50vw;
   }
   .c-3 button {
-    padding: 10px 20px;
+    padding: 1vw 2vw;
     border: none;
-    border-radius: 10px;
+    border-radius: 20%;
     color: #fff;
     background-color: green;
-    font-size: 20px;
+    font-size: 4vw;
     cursor: pointer;
     transition: 0.5s ease-in-out;
   }
@@ -290,13 +288,9 @@ footer {
 }
 
 
-/* @media screen and (max-width:450px) {
+@media screen and (max-width:450px) {
    body{
     background-image: none;
     background-color: #0c4113;
    }
-
-   .nav{
-    width:50px;
-   }
-} */
+}
