@@ -44,7 +44,7 @@
   .items ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 2.3vw;
+    font-size: 2vw;
   }
 
   .items ul li:hover {
@@ -90,18 +90,18 @@
     margin-left: 5vw;
   }
   .c-1 {
-    margin-bottom: 2vw;
+    margin-top: 50vw;
   }
   .c-1 h1 {
     color: #fff;
-    font-size: 10vw;
+    font-size: 5vw;
   }
   .c-1 h1 span {
     color: green;
   }
   .c-2 p {
     color: lightgray;
-    letter-spacing: 1vw;
+    font-size: 2vw;
   }
   .c-3 {
     margin-top: 50vw;
